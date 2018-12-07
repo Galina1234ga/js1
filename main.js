@@ -1,0 +1,18 @@
+let money, time;
+money = +prompt("Ваш бюджет на месяц");
+time =  prompt("Введите дату в формате YYYY-MM-DD");
+const appData = {};
+appData.budget = money;
+appData.times = time;
+console.log(appData);
+const optionaExpenses = {};
+let income = [];
+let savings = false;
+const expenses = {};
+let expensesCost = prompt("Введите обязательную статью расходов в этом месяце");
+let cost = +prompt("Во сколько обойдется");
+ expenses.expenses = expensesCost;
+ expenses.cost = cost;
+ console.log(expenses);
+ let moneys = money/30;
+ alert(moneys);
